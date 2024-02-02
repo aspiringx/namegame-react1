@@ -27,7 +27,7 @@ export default function Navbar() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        <Link href="/" className="no-underline">
+        <Link key="Home" href="/" className="no-underline">
           <ListItem key="Home" disablePadding>
             <ListItemButton>
               <ListItemText className="font-semibold text-2xl text-black">Name Game</ListItemText>
@@ -35,7 +35,7 @@ export default function Navbar() {
           </ListItem>
         </Link>
         {[['About Us', '/about-us'], ['Contact Us', '/contact-us'], ['Login', '/login']].map((item, index) => (
-          <Link href={item[1]} className="no-underline text-slate-500 active:text-black">
+          <Link key={item[0]} href={item[1]} className="no-underline text-slate-500 active:text-black">
             <ListItem key={item[0]} disablePadding>
               <ListItemButton>
                 <ListItemText primary={item[0]} />
