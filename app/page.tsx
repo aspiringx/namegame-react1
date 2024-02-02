@@ -1,19 +1,22 @@
-import Image from "next/image";
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import RegistrationForm from './components/RegistrationForm';
 
 export default function Home() {
   return (
-    <div /* Page */ className="page">
-      <div /* Header */ className="header">Header</div>
-      <div /* Logo */ className="logo">Logo</div>
-      <div /* Info Text */ className="infoText">Info Text</div>
-      <div /* Register Form */ className="registerForm">
-        Register Form
-        <div /* Name Input */ className="nameInput">Name</div>
-        <div /* Phone Input */ className="phoneInput">Phone</div>
-        <div /* Picture Input */ className="pictureInput">Picture</div>
-        <button /* Submit */ className="submitButton">Submit</button>
+    <div className="bg-white">
+      <div className="bg-white home-page">
+        <Navbar />
+        <div className="px-5 pb-5">
+          <div className="bg-white rounded-lg text-black min-h-2 max-w-md opacity-95 text-center items-center m-auto my-36 px-8 py-7 mx-md-4 shadow">
+            <div className="text-md text-gray-500 text-left px-3">Welcome!</div>
+            <div className="font-semibold text-xl text-left px-3 pb-3">Join The Community</div>
+            <div className="text-gray-500 px-2 pb-3">An ice breaker application that helps you connect with new people in your community.</div>
+            <RegistrationForm isLoginType={false} />
+          </div>
+        </div>
       </div>
-      <div /* Footer */ className="footer">Footer</div>
+      <Footer></Footer>
     </div>
-  );
+  )
 }
