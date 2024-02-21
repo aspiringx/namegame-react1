@@ -126,3 +126,8 @@ body {
   text-align: center;
 }
 /*-------*/
+.home-page {
+  background-image: url(/home_page.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
