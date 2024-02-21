@@ -11,7 +11,6 @@ export default function Home() {
           <div className="bg-white rounded-lg text-black min-h-2 max-w-md opacity-95 text-center items-center m-auto my-36 px-8 py-7 mx-md-4 shadow">
             <div className="text-md text-gray-500 text-left px-3">Welcome!</div>
             <div className="font-semibold text-xl text-left px-3 pb-3">Join The Community</div>
-            <div className="text-gray-500 px-2 pb-3">An ice breaker application that helps you connect with new people in your community.</div>
             <RegistrationForm isLoginType={false} />
           </div>
         </div>
