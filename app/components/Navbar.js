@@ -51,12 +51,11 @@ export default function Navbar() {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-gradient-to-t to-orange-300 from-orange-400 lg:px-5 py-3 shadow">
       <div className="flex items-center flex-shrink-0 text-white lg:mr-7">
-        <div className="w-32 px-3">
+        <a href="/" className="w-32 px-3">
           <img className="" src="/aspiring-logo-white.png" alt="Logo" width="100%" height="100%"></img>
-        </div>
-        <a href="/" className="font-semibold text-2xl tracking-tight">Name Game</a>
+        </a>
       </div>
-      <div className="block lg:hidden">
+      <div className="block lg:hidden ml-auto pr-3">
         <React.Fragment key={'right'}>
           <button onClick={toggleDrawer('right', true)} className="flex items-center px-3 py-2 border rounded text-white border-white">
             <svg className="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>

@@ -15,7 +15,8 @@
     "@mui/material": "^5.15.7",
     "next": "14.0.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "validator": "^13.11.0"
   },
   "devDependencies": {
     "@types/node": "^20",

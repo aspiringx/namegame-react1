@@ -4,7 +4,7 @@ import RegistrationForm from './components/RegistrationForm';
 
 export default function Home() {
   return (
-    <div className="bg-white">
+    <div className="bg-white h-screen">
       <div className="bg-white home-page">
         <Navbar />
         <div className="px-5 pb-5">
