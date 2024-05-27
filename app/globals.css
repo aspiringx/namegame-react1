@@ -21,6 +21,7 @@ body {
   background: white;
   margin: 0 auto;
   max-width: 1024px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   /* border: 1px solid red; */
 }
 
@@ -53,7 +54,7 @@ body {
 }
 
 .info {
-  padding-top: 112px;
+  /* padding-top: 112px; */
 }
 
 .info > .MuiAlert-standard {
