@@ -1,7 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Allows deploy to github pages path.
-  basePath: "/namegame-react1",
   images: {
     remotePatterns: [
       {
