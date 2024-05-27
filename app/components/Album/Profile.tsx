@@ -52,7 +52,7 @@ export function Profile({ id, first, last, path }: Props) {
         <div className="more p-4">
           Here&apos;s some more info about {first}.
           <br/><br/>
-          {first} has been the pastor since 2018.
+          {first} has been in this group since 2021.
         </div>
       ) : (null) }
       <Image 
