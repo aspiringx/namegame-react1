@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",  // <=== enables static exports
+  reactStrictMode: true,
+  // Allows deploy to github pages path.
+  basePath: "/namegame-react1",
   images: {
     remotePatterns: [
       {
